@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'F37MoonRegular';
+    src: url('../public/fonts//f37-moon-black.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Badooni72Bold';
+    src: url('../public/fonts//Bodoni-72-Bold.otf') format('otf');
+}

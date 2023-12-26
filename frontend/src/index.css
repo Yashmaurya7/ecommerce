@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "F37MoonRegular" , sans-serif; */
+}
+
+.badooni-font-heading{
+    font-family: "Badooni72Bold";
+    font-weight: bold;
+}

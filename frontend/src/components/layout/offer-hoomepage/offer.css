@@ -1,0 +1,52 @@
+.offer{
+    display: flex;
+    position: relative;
+    margin-top: 2rem;
+}
+
+
+.offer-left{
+    color: white;
+    background-color: #00064B;
+    padding: 2rem 12rem 2rem 10rem;
+    width: max-content;
+}
+.offer-left > h2{
+    font-family: 'Badooni72Bold';
+    font-size: 50px;
+    width: 25vw;
+    line-height: normal;
+}
+
+.offer-left > p{
+    font-size: 18px;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.offer-left > button{
+    color: #000;
+    margin-top: 1rem;
+    padding: 15px 10px;
+    border: none;
+    background-color: #FFDA3E;
+    width: 350px ;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.text-yellow{
+    color:#FFDA3E;
+    font-size: 100%;
+}
+
+.offer-right{
+    width: 115vw;
+    height: 319px;
+}
+.offer-right > img{
+    position: absolute;
+    right: 0vw;
+    z-index: -1;
+}

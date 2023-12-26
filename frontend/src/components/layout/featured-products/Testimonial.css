@@ -1,0 +1,99 @@
+
+.left-box{
+    background-color: #fff;
+    padding: 2rem 2rem 1rem 2rem;
+    grid-area: left;
+    position: relative;
+    /* height: 15rem; */
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    height: 15rem;
+    transform: scale(1);
+}
+
+.mid-box{
+    background-color: #fff;
+    padding: 3rem 2.5rem;
+    grid-area: mid;
+    position: relative;
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    height: 20rem;
+    transform: scale(1);
+}
+
+.right-box{
+    background-color: #fff;
+    padding: 2rem 2rem 1rem 2rem;
+    grid-area: right;
+    position: relative;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    height: 15rem;
+    transform: scale(1);
+    
+}
+
+.testimonials{
+    display: flex;
+    gap: 5rem;
+    padding: 2rem 7rem;
+    align-items: center;
+    /* grid-template-columns: 1.5fr 2fr 1.5fr; */
+    /* grid-template-rows: 5rem; */
+    /* grid-template-areas: 
+    ". mid ."
+    "left mid right"
+    ". mid ."
+    ; */
+    /* position: relative; */
+}
+
+.test-review{
+    margin-top: 0.5rem;
+}
+
+.test-name{
+    font-weight: bold;
+}
+
+.left-box > .name-location{
+    position:absolute;
+    bottom: 1.5rem;
+    /* margin-top: 3rem; */
+}
+.right-box > .name-location{
+    position:absolute;
+    bottom: 1.5rem;
+}
+.mid-box > .name-location{
+    position: absolute;
+    bottom: 3rem;
+}
+
+
+/* .test-location{
+    position: absolute;
+    bottom: 3%;
+} */
+
+.left-short{
+    position: absolute;
+    top: -1.5rem;
+    left: -1.5rem;
+}
+.right-short{
+    position: absolute;
+    bottom: -1.5rem;
+    right: -1.5rem;
+}
+.left-big{
+    position: absolute;
+    top: -2rem;
+    left: -2rem;
+}
+.right-big{
+    position: absolute;
+    bottom: -2rem;
+    right: -2rem;
+}

@@ -1,0 +1,32 @@
+#footer{
+    display: flex;
+    background-color: #00064B;
+    padding: 2rem 7rem;
+    color: white;
+    gap: 6rem;
+}
+
+.foot-head{
+    margin-bottom: 1rem;
+    width: max-content;
+}
+
+.foot-links{
+    line-height: 1.75rem;
+}
+
+.contact-us{
+    width: 125%;
+}
+
+.phone-icon{
+    color:#F85903;
+    display: inline;
+    margin-right: 0.75rem;
+}
+
+.email-icon{
+    color:#F85903;
+    display: inline;
+    margin-right: 0.75rem;
+}

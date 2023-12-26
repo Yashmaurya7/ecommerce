@@ -1,0 +1,82 @@
+.carosuel{
+    overflow: hidden;
+}
+
+.inner{
+    white-space: nowrap;
+    transition: transform 0.3s;
+    /* box-shadow: 0 5px 15px rgba(0,0,0,0.05); */
+    /* border: 2px solid red; */
+}
+
+.carosuel-item{
+    display: inline-flex;
+    background-color: #FFF7EF;
+}
+
+.carosuel-image{
+    width: 50rem;
+    height: 100%;
+}
+
+.carosuel-left{
+    padding: 4rem 2rem 0rem 15rem;
+}
+
+.carosuel-head{
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+    text-wrap: wrap;
+    width: 25rem;
+}
+
+.carosuel-subhead{
+    text-wrap: wrap;
+}
+
+.carosuel-btn{
+    border-radius: 2rem;
+}
+
+.carosuel-btn:hover{
+    background-color: #fa803e;
+}
+
+.carosuel-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.indicators{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: -1rem;
+    border-radius: 3rem;
+    background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    padding: 6px 15px 3px 15px;
+}
+
+.indicator-btns{
+    border: none;
+    cursor: pointer;
+}
+
+.indicators > button {
+    background: none;
+    padding: 3px;
+}
+
+.indicator-circle{
+    color: #F85903;
+}
+
+.indicator-symbol{
+    color: red;
+}
+
+.indicator-symbol-active{
+    color: green;
+}
